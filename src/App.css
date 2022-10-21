@@ -1,0 +1,48 @@
+.wrapper {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 160px;
+  height: 210px;
+  border: 2px Solid rgb(102, 151, 220);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+.wrapper-counter {
+  margin: 0px auto 15px;
+  width: 120px;
+  height: 60px;
+  border: 2px solid rgb(30, 42, 39);
+  background-color: rgb(0, 255, 191);
+  border-radius: 5px;
+  font-size: 28px;
+  transition: .5s;
+
+}
+
+.full {
+
+  border: 2px solid red;
+  background-color: rgb(195, 255, 0);
+  color: red;
+
+}
+
+.wrapper-button {
+  min-width: 120px;
+  height: 80px;
+  border: 1px solid rgb(13, 77, 61);
+  background-color: rgb(161, 231, 214);
+  margin: 0px 3px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navLink {
+  text-decoration: none;
+}

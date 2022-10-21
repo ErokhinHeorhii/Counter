@@ -1,0 +1,33 @@
+.default {
+    min-width: 45px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  margin: 0px 3px;
+}
+
+.default:disabled {
+    background: rgb(212, 191, 191);
+    cursor: auto;
+    opacity: .8;
+}
+
+/* .red {
+    background: red;
+} */
+
+.button {
+    width: 3.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+
+}
+
+.wrapperButton {
+    margin-top: 10px;
+    
+}
